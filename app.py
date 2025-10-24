@@ -492,7 +492,7 @@ df_rend = pd.DataFrame({
 
 st.dataframe(df_rend[
     ["nome","setor","shares","preco_inicial","preco_hoje","Variação preço/ação (R$)","PnL de preço (R$)"]
-], width='stretch)
+], width='stretch')
 
 st.write("**Contribuição por papel (PnL de preço em R$)**")
 st.caption("Quanto cada papel contribuiu em **R$** para o resultado desde o lock, considerando apenas variação de preço (sem caixa).")
@@ -531,12 +531,12 @@ df_alloc_plot = pd.DataFrame({
 c1, c2 = st.columns(2)
 with c1:
     st.markdown("**Por papel**")
-    st.bar_chart(df_alloc_plot, width='stretch)
+    st.bar_chart(df_alloc_plot, width='stretch')
 
 with c2:
     st.markdown("**Por setor (alvo do lock)**")
     setor_target = df_hold.groupby("setor")["weight"].sum().sort_values(ascending=False) * 100
-    st.bar_chart(setor_target, width='stretch)
+    st.bar_chart(setor_target, width='stretch')
 
 # ---------- Posições detalhadas ----------
 st.subheader("Posições — resumo do lock + mercado")
@@ -550,7 +550,7 @@ df_pos["preco_hoje"] = last_prices
 df_pos["retorno_preco_%"] = (df_pos["preco_hoje"]/df_pos["preco_inicial"] - 1.0) * 100.0
 df_pos["peso_atual (investido)"] = (df_pos["preco_hoje"]*df_pos["shares"]) / nav_invested.iloc[-1]
 df_pos = df_pos.reset_index().rename(columns={"ticker_yf":"ticker_yf (yfinance)"})
-st.dataframe(df_pos, width='stretch)
+st.dataframe(df_pos, width='stretch')
 
 # ---------- Metodologia (com LaTeX) ----------
 with st.expander("Metodologia — como esta carteira é construída e travada (explicação completa)"):

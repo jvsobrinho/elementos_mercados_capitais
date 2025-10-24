@@ -1,0 +1,17 @@
+[project]
+name = "elementos-mercado-capitais"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fundamentus>=0.3.2",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "pandas-market-calendars>=5.1.1",
+    "python-bcb>=0.3.3",
+    "requests>=2.32.5",
+    "streamlit>=1.50.0",
+    "tqdm>=4.67.1",
+    "yfinance>=0.2.66",
+]

@@ -1,0 +1,29 @@
+# .streamlit/config.toml
+
+[server]
+headless = true
+fileWatcherType = "poll"         # monitora mudanças de arquivos de forma agressiva
+runOnSave = true                 # reexecuta o app ao salvar arquivos
+enableCORS = false               # CORS gerenciado pelo Cloud; manter explícito
+enableXsrfProtection = true
+maxUploadSize = 200              # MB
+
+[runner]
+fastReruns = true                # reruns mais rápidos e com menos flicker
+magicEnabled = true              # permite exibir objetos sem st.write()
+
+[client]
+toolbarMode = "auto"
+showErrorDetails = true
+
+[browser]
+gatherUsageStats = false         # telemetria opcional
+
+[theme]
+base = "light"                   # "dark" ou "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F6F6"
+textColor = "#111827"
+font = "sans serif"
+

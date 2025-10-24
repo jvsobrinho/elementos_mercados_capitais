@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# bancos locais / cache
+*.db
+*.sqlite
+*.sqlite3
+http_sqlite*
+
+
+# Streamlit secrets
+.streamlit/secrets.toml

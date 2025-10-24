@@ -1,0 +1,172 @@
+{
+  "locked_at": "2025-10-23",
+  "capital": 1000000.0,
+  "rules": {
+    "n_min": 8,
+    "n_max": 10,
+    "cap_papel": 0.12,
+    "cap_setor": 0.35,
+    "max_por_setor": 2,
+    "liq_min_rs": 25000000,
+    "cut_vol_top": 0.1,
+    "mom_ex": {
+      "3m_ex1w": 5,
+      "1m_ex3d": 3
+    },
+    "score_weights": {
+      "momentum": 0.6,
+      "qual": 0.25,
+      "val": 0.15
+    },
+    "weights_formula": "weight ∝ Score_Final / Vol_20d (depois caps e renormalização)"
+  },
+  "execution": {
+    "mode": "fracionario",
+    "lot_size": 1,
+    "rounding": "floor",
+    "invested_total": 999828.192132473,
+    "cash_residual": 171.80786752700806
+  },
+  "holdings": [
+    {
+      "ticker_b3": "VIVA3",
+      "ticker_yf": "VIVA3.SA",
+      "setor": "Tecidos, Vestuário e Calçados",
+      "score_final": 1.1036856216366606,
+      "vol20d": 0.019046367960200237,
+      "alpha": 57.94730123575001,
+      "weight_target": 0.1134090291593706,
+      "last_price_ref": 30.110000610351562,
+      "shares_target": 3766.4904304379697,
+      "shares": 3766,
+      "invested": 113394.26229858398,
+      "weight_effective": 0.11341374767271988
+    },
+    {
+      "ticker_b3": "CSMG3",
+      "ticker_yf": "CSMG3.SA",
+      "setor": "Água e Saneamento",
+      "score_final": 0.901304205306626,
+      "vol20d": 0.014087695946134019,
+      "alpha": 63.97811315298611,
+      "weight_target": 0.12374978442043284,
+      "last_price_ref": 36.33000183105469,
+      "shares_target": 3406.2696995146366,
+      "shares": 3406,
+      "invested": 123739.98623657227,
+      "weight_effective": 0.12376124939291294
+    },
+    {
+      "ticker_b3": "SBSP3",
+      "ticker_yf": "SBSP3.SA",
+      "setor": "Água e Saneamento",
+      "score_final": 0.8908850623197048,
+      "vol20d": 0.012337342941637033,
+      "alpha": 72.21044811140622,
+      "weight_target": 0.12374978442043284,
+      "last_price_ref": 130.64999389648438,
+      "shares_target": 947.1855354121283,
+      "shares": 947,
+      "invested": 123725.5442199707,
+      "weight_effective": 0.12374680489463293
+    },
+    {
+      "ticker_b3": "ELET3",
+      "ticker_yf": "ELET3.SA",
+      "setor": "Energia Elétrica",
+      "score_final": 0.7742316772429878,
+      "vol20d": 0.013145047552945915,
+      "alpha": 58.89911574108197,
+      "weight_target": 0.115271831338032,
+      "last_price_ref": 54.099998474121094,
+      "shares_target": 2130.71782974583,
+      "shares": 2130,
+      "invested": 115232.99674987793,
+      "weight_effective": 0.11525279808734383
+    },
+    {
+      "ticker_b3": "ISAE4",
+      "ticker_yf": "ISAE4.SA",
+      "setor": "Energia Elétrica",
+      "score_final": 0.7640465888666341,
+      "vol20d": 0.01099807081979165,
+      "alpha": 69.47096462514945,
+      "weight_target": 0.12374978442043284,
+      "last_price_ref": 24.459999084472656,
+      "shares_target": 5059.27183370133,
+      "shares": 5059,
+      "invested": 123743.13536834717,
+      "weight_effective": 0.12376439906582642
+    },
+    {
+      "ticker_b3": "DIRR3",
+      "ticker_yf": "DIRR3.SA",
+      "setor": "Construção Civil",
+      "score_final": 0.7189053135830872,
+      "vol20d": 0.01770193760414323,
+      "alpha": 40.611673685643524,
+      "weight_target": 0.07948136301444407,
+      "last_price_ref": 16.020000457763672,
+      "shares_target": 4961.383317309802,
+      "shares": 4961,
+      "invested": 79475.22227096558,
+      "weight_effective": 0.07948887908577341
+    },
+    {
+      "ticker_b3": "COGN3",
+      "ticker_yf": "COGN3.SA",
+      "setor": "Diversos",
+      "score_final": 0.6696568402760392,
+      "vol20d": 0.025576547831572597,
+      "alpha": 26.18245607991674,
+      "weight_target": 0.05124185012432159,
+      "last_price_ref": 3.4000000953674316,
+      "shares_target": 15071.131966772484,
+      "shares": 15071,
+      "invested": 51241.40143728256,
+      "weight_effective": 0.05125020662599329
+    },
+    {
+      "ticker_b3": "RDOR3",
+      "ticker_yf": "RDOR3.SA",
+      "setor": "Serv.Méd.Hospit. Análises e Diagnósticos",
+      "score_final": 0.6439807575519715,
+      "vol20d": 0.011888406425191407,
+      "alpha": 54.168804002812614,
+      "weight_target": 0.10601410836529519,
+      "last_price_ref": 42.040000915527344,
+      "shares_target": 2521.743721612033,
+      "shares": 2521,
+      "invested": 105982.84230804443,
+      "weight_effective": 0.10600105412310894
+    },
+    {
+      "ticker_b3": "GGPS3",
+      "ticker_yf": "GGPS3.SA",
+      "setor": "Serviços Diversos",
+      "score_final": 0.6024838798936539,
+      "vol20d": 0.01523179758519357,
+      "alpha": 39.55435177784352,
+      "weight_target": 0.07741207163218114,
+      "last_price_ref": 18.739999771118164,
+      "shares_target": 4130.846989202613,
+      "shares": 4130,
+      "invested": 77396.19905471802,
+      "weight_effective": 0.0774094986156015
+    },
+    {
+      "ticker_b3": "CYRE3",
+      "ticker_yf": "CYRE3.SA",
+      "setor": "Construção Civil",
+      "score_final": 0.5893874187805347,
+      "vol20d": 0.013425146200143593,
+      "alpha": 43.90175049074927,
+      "weight_target": 0.085920393105057,
+      "last_price_ref": 29.950000762939453,
+      "shares_target": 2868.7943544688014,
+      "shares": 2868,
+      "invested": 85896.60218811035,
+      "weight_effective": 0.08591136243608684
+    }
+  ]
+}

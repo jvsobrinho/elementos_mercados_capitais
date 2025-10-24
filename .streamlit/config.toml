@@ -20,7 +20,7 @@ showErrorDetails = true
 gatherUsageStats = false         # telemetria opcional
 
 [theme]
-base = "light"                   # "dark" ou "light"
+base = "dark"                   # "dark" ou "light"
 primaryColor = "#4F46E5"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F6F6F6"
